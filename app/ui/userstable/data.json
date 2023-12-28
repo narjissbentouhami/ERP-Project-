@@ -1,0 +1,83 @@
+[   
+    {
+      "id": 1,
+      "name": "Garen Gouverneur",
+      "role": "Super administrateur",
+      "image": "/usersTableIcons/user-1.svg",
+      "_role": "Chef de projet MO",
+      "Permissions": {
+        "maintenance": true,
+        "kpis": true,
+        "ged": true,
+        "gtc": true,
+        "interfaceMaintenance": true,
+        "spaceManagment": true,
+        "mobileApp": true
+      }
+    },
+    {
+      "id": 2,
+      "name": "Eléonore Pena",
+      "role": "Administrateur",
+      "image": "/usersTableIcons/user-2.svg",
+      "_role": "Directeur de l'établissement",
+      "Permissions": {
+        "maintenance": true,
+        "kpis": true,
+        "ged": false,
+        "gtc": true,
+        "interfaceMaintenance": false,
+        "spaceManagment": true,
+        "mobileApp": true
+      }
+    },
+    {
+      "id": 3,
+      "name": "Sara Salim",
+      "role": "Responsable maintenance",
+      "image": "/usersTableIcons/user-3.svg",
+      "_role": "Chefs des agents de maintenance",
+      "Permissions": {
+        "maintenance": true,
+        "kpis": false,
+        "ged": false,
+        "gtc": true,
+        "interfaceMaintenance": true,
+        "spaceManagment": true,
+        "mobileApp": true
+      }
+    },
+    {
+      "id": 4,
+      "name": "Floyd Miles",
+      "role": "Technicien",
+      "image": "/usersTableIcons/user-4.svg",
+      "_role": "Office manager qui gère les réservations",
+      "Permissions": {
+        "maintenance": false,
+        "kpis": false,
+        "ged": false,
+        "gtc": false,
+        "interfaceMaintenance": false,
+        "spaceManagment": false,
+        "mobileApp": true
+      }
+    },
+    {
+      "id": 5,
+      "name": "Esther Howard",
+      "role": "Technicien",
+      "image": "/usersTableIcons/user-5.svg",
+      "_role": "Agents de maintenance sur terrain",
+      "Permissions": {
+        "maintenance": false,
+        "kpis": true,
+        "ged": false,
+        "gtc": false,
+        "interfaceMaintenance": true,
+        "spaceManagment": true,
+        "mobileApp": true
+      }
+    }
+  ]
+  

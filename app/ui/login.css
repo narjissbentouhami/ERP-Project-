@@ -1,0 +1,44 @@
+/* .syana {
+  background: linear-gradient(90deg, #2D749E 68.13%, #38B684 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.signin-btn {
+  border-radius: 10px;
+  background: linear-gradient(90deg, #2D749E 0%, #38B684 100%);
+}
+
+.ipt-txt input:focus {
+  border: none;
+  box-shadow: none;
+} */
+
+.auth-title {
+  font-family: Neusharp;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  background: var(--Gredient, linear-gradient(90deg, #2D749E 0%, #38B684 100%));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Login Button */
+.lg-btn{
+  background: linear-gradient(90deg, #2D749E 0%, #38B684 100%);
+}
+
+.auth-link{
+  color:#2D749E;
+}
+
+.auth-footer{
+  color : #001123BF;
+}
+
+.auth-bg{
+  background: linear-gradient(180deg, rgba(45, 116, 158, 0.16) 0%, rgba(56, 182, 132, 0.16) 100%);
+}

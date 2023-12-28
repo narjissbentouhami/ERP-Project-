@@ -1,0 +1,40 @@
+@import 'variables.module';
+
+.auth
+{
+  &-link {
+    color: $primary-color;
+  }
+  
+  &-title {
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80%;
+    margin-bottom: 9px;
+    background: var(--Gredient, linear-gradient(90deg, #2D749E 0%, #38B684 100%));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    span
+    {
+      display: inline-block;
+      &::after
+      {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 10px;
+        background: url('/loginPageIcons/underline.svg') no-repeat center / cover
+      }
+    }
+  }
+  
+  &-bg {
+    background: linear-gradient(180deg, rgba(45, 116, 158, 0.16) 0%, rgba(56, 182, 132, 0.16) 100%);
+  }
+  
+  &-btn {
+    background: linear-gradient(90deg, #2D749E 0%, #38B684 100%);
+  }
+}

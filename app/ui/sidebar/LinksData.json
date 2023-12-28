@@ -1,0 +1,34 @@
+[
+    {
+        "link":"/dashboard",
+        "label" : "Dashboard",
+        "notification" : "new",
+        "icon": "/sidebarIcons/fi-rr-dashboard.svg"
+    },
+    {
+        "link":"/navigation",
+        "label" : "Navigation",
+        "icon": "/sidebarIcons/fi-rr-navigation.svg"
+    },
+    {
+        "link":"/analytics",
+        "label" : "Analytics",
+        "icon": "/sidebarIcons/fi-rr-cursor-plus.svg"
+    },
+    {
+        "link":"/graphs",
+        "label" : "Graphs",
+        "notification" : "2",
+        "icon": "/sidebarIcons/fi-rr-stats.svg"
+    },
+    {
+        "link":"/ged",
+        "label" : "GED",
+        "icon": "/sidebarIcons/fi-rr-folder.svg"
+    },
+    {
+        "link":"/maintenance",
+        "label" : "Maintenance",
+        "icon": "/sidebarIcons/fi-rr-settings.svg"
+    }
+]

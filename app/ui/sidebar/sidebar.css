@@ -1,0 +1,63 @@
+/* Background Sidebar Link */
+.bg-sb-link{
+    background-color: #2D749E;
+}
+
+/* Tablet */
+@media (max-width:801px) {
+    .main {
+        margin-left: 10%;
+        width: 90%;
+    }
+
+    .sidebar-parent {
+        width: 10%;
+    }
+
+    .icon-container {
+        padding: 3px 0;
+        margin-top: 30px;
+    }
+
+    .icon-parent {
+        margin: auto;
+    }
+
+    .sb-sp {
+        display: none;
+    }
+
+    .links-parent {
+        width: 100%;
+        margin: auto;
+    }
+}
+
+/* Mobile L */
+@media (max-width:425px) {
+    .main {
+        margin-left: 15%;
+        width: 85%;
+    }
+
+    .sidebar-parent {
+        width: 15%;
+    }
+
+    .icon-parent img {
+        width: 70%;
+        margin: auto;
+    }
+}
+
+/* Mobile S */
+@media (max-width:320px) {
+    .main {
+        margin-left: 18%;
+        width: 82%;
+    }
+
+    .sidebar-parent {
+        width: 18%;
+    }
+}
